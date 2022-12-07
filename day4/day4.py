@@ -44,6 +44,7 @@ def part2(location : str) -> int:
 
         if len(set(range(tmp[0], tmp[1] + 1)).intersection(set(range(tmp[2], tmp[3] + 1)))) > 0:
             total += 1
+            
     print(total)
 
 
